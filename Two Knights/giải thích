@@ -1,0 +1,4 @@
+bàn cờ có n x n ô vuông ; square : n x n
+số cách chọn ra 2 ô bất kì để chọn 2 con mã : n * n C 2 = n^2 * (n^2 - 1 )/ 2
+số cách chọn 2 ô mà 2 con mã attack nhau là số cách chọn ra hình chữ nhật có kích thước 2 x 3 và 3 x 2 nhân với 2 ( do mỗi vùng chữ nhật cho 2 cách xếp mã )
+vậy ans = n*n*(n*n - 1) /2 - 2*(n-1)(n-2)*2 
